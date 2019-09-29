@@ -6,3 +6,29 @@
     margin-right: auto;
     height: auto;
 }
+
+.back-to-top {
+    margin-left: 100%;
+}
+
+#back-to-top-sticky {
+    background-color: #cfcfcf;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 99;
+    /* text-align: right; */
+    padding-left: 13px;
+    padding-top: 3px;
+    padding-right: 12px;
+    font-size: 15px;
+    border: thin white;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: visibility 0.5s, opacity 0.5s ease-in-out;
+}
