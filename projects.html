@@ -9,66 +9,148 @@
 		<title>Low Kah Onn</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="shortcut icon" href="images/kolog.png" type="image/png" sizes="32x32">
+		<link rel="shortcut icon" href="images/logo/logo.png" type="image/png" sizes="32x32">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="main.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-			<button onclick="goTop()" id="back-to-top-sticky" class="icon brands fa-arrow-up"></button>
+	<body id="top" class="is-preload">
+		<button id="back-to-top-sticky"></button>
+		<a href="javascript:void(0)" id="topicon" class="icon brands fa-arrow-up"></a>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
-					<!-- <div id="intro">
-							<h1><img id="my_photo" src="images/my_photo.jpg"/></h1>
-							<h2>LOW KAH ONN</h2>
-							<ul class="icons">
-								<li><a href="https://github.com/lowkahonn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/kah-onn-low-b5836a15b/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-								<li><a href="mailto:lowkahonn0106@gmail.com" class="icon brands fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="https://wa.me/send?phone=85254956585" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
-							</ul>
-							<ul class="actions">
-									<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-								</ul>
-						</div> -->
-
 				<!-- Header -->
 					<header id="header">
-						<a href="javascript:goTop()" class="logo">Projects</a>
+						<a href="javascript:void(0)" class="logo">Projects</a>
+						
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="index.html">About Me</a></li>
-							<li class="active"><a href="javascript:goTop()">Projects</a></li>
+							<li class="active"><a href="javascript:void(0)">Projects</a></li>
 							<li><a href="resume.html">Resume</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://github.com/lowkahonn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 							<li><a href="https://www.linkedin.com/in/kah-onn-low-b5836a15b/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
 							<li><a href="mailto:lowkahonn0106@gmail.com" class="icon brands fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="https://wa.me/send?phone=85254956585" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+							<li><a href="https://wa.me/85254956585" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Post -->
+						<!-- Introduction -->
+							<section class="post">
+								<h2>Projects</h2></br>
+								<p>
+									For me, side projects are the real boosters for learning programming. Building an application gives me motivation and satisfaction
+									to learn. From finding the right packages to use in my project, reading the documentations, structuring my code to debugging my program,
+									these processes have been a great portrait of the quote, "learn from your mistakes". Below are some projects that I have worked on during
+									my spare time:
+								</p>
+								<ul>
+									<li><a href="javascript:scrollTo('multiplayer-snake-game')">Multiplayer Snake Pygame</a></li>
+									<li><a href="javascript:scrollTo('python-ml')">Python Machine Learning Web App</a></li>
+									<li><a href="javascript:scrollTo('flutter-snake-game')">Flutter Snake Game</a></li>
+									<li><a href="javascript:scrollTo('flutter-plugin')">Flutter plugin</a></li>
+								</ul>
+							</section>
+
+							<!-- Python Multiplayer Snake Game-->
 							<section class="post">
 								<header class="major">
-									<span class="date">MY PROJECTS</span>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h3 id="multiplayer-snake-game" class="project-intro">Multiplayer Snake Pygame</h3>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+								<p>
+									This game kicked off my coding life. I literally started having some grasps about Python and Object Oriented Programming 
+									throughout the entire project. It was a winter semester break during my final year study in university, I spent about a week
+									or two watching coding youtube videos, reading documentation and searching for solutions on stackoverflow before I coded this 
+									game out. It was a fun journey and I fell in love in programming since then. It was from this moment onwards, I could not stop
+									thinking about landing a job in the tech industry albeit being a Mechanical Engineering student. 
+									Check <a href="https://github.com/lowkahonn/Flutter-Snake-Game">here</a> out for more!
+								</p>
+								<div class="pygame">
+									<img id="pygame-gif" src="images/image/projects/pygame/pygame.gif" alt=""/>
+									<div id="modal-content" class="modal" onclick="this.style.display='none'">
+										<span id="close" class="close">&times;</span>
+										<div class="modal-content">
+											<img id="modal-img"/>
+										</div>
+									</div>
+								</div></br>
+							</section>
+							
+							<!-- Python ML -->
+							<section class="post">
+								<header class="major">
+									<h3 id="python-ml" class="project-intro">Python Machine Learning Web App</h3>
+								</header>
+								<p>
+									Originally, this was a coding test from an interview for a Machine Learning Engineer role, and it became my first ever machine learning 
+									experience. The task was to build a web application that takes JSON data, trains the model and returns prediction results through APIs.
+									The machine learning model takes in two features, a categorical feature 'species' and a real value feature 'age', and makes predictions to
+									get the real value target 'score' of the input animal. The biggest challenge to me at that time was the feature engineering process. I
+									encoded the categorical feature with OneHotEncoder to 1's and 0's to differenciate the animal species because I don't want to have any
+									biases on different species. I used linear regression to train the model to return a real value target. For the API, I used Python Flask
+									for its simplicity. It was a really low quality code, but I learned a lot throughout the interview, thanks to the interviewers! Here is the
+									<a href="https://github.com/lowkahonn/Simple-Machine-Learning-Web-App">github</a> link!
+								</p>
+								<div class="python-ml">
+									<img id="python-ml-img" src="" alt=""/>
+							</section>
+
+							<!-- Flutter snake -->
+							<section class="post">
+								<header class="major">
+									<h3 id="flutter-snake-game" class="project-intro">Flutter Snake Game</h3>
+									<p></p>
+								</header>
+								<!-- <div class="image main"><img src="images/pic01.jpg" alt="" /></div> -->
+								<p>
+									Flutter is known to be a cross-platform framework that helps compile native applications for mobile. For a newcomer to the software
+									engineering industry, it's best for me to write a single codebase and use it to compile mobile apps. As a result, I used Flutter to 
+									recreate the snake game (again) to be familiar with the framework.
+								</p>
+								<div class="project-image">
+									<img id="project-image1" src="images/image/projects/snake/homepage.png" alt="" />
+									<img id="project-image2" src="images/image/projects/snake/gameplay.gif" alt=""/>
+									<img id="project-image3" src="images/image/projects/snake/newhigh.png" alt=""/>
+								</div></br>
+								<p>For more details, have a look at <a href="https://github.com/lowkahonn/Flutter-Snake-Game">here</a>!</p>
+							</section>
+
+							<!-- Flutter plugin-->
+							<section class="post">
+								<header class="major">
+									<!-- <span class="date">MY PROJECTS</span> -->
+									<h3 id="flutter-plugin" class="project-intro">Flutter plugin</h3>
+								</header>
+								<p>
+									This plugin is essentially written for the mobile applications of the company I'm currently working in. During the app development stage,
+									I was using a geocoder API that returns 
+									<a href="https://www.geodetic.gov.hk/common/data/pdf/explanatorynotes.pdf">Hong Kong 1980 Grid System</a> 
+									coordinates of Easting and Northing in meters. It was less common compared to the WGS 84 Datum (latitude and longitude) that we usually use.
+									Although there is an 
+									<a href="http://www.geodetic.gov.hk/transform/tformAPI_manual.pdf">API</a> 
+									online that converts HK 1980 Grid System coordinates to latitudes and longitudes, I decided to implement the formulas to push a little 
+									efficiency for the conversion, and the result is satisfactory. If you need the conversion, you can visit my 
+									<a href="https://github.com/lowkahonn/flutter_hkgrid80_wgs84_converter">github</a> for more information!
+								</p>
+							</section>
+
+							<!-- Pagination -->
+							<section class="posts">
+								<div class="pagination" style="margin: 0 auto; display: inline">
+									<a href="index.html" class="previous">About Me</a>
+									<a href="javascript:void(0)" class="page active" style="padding: 0 15px">Projects</a>
+									<a href="resume.html" class="next">Resume</a>
+								</div>
 							</section>
 
 					</div>
